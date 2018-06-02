@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/itemId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/dateShow"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="end"
+        android:paddingRight="10dp"
+        android:paddingVertical="28dp" />
+
+    <ImageView
+        android:id="@+id/lineShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:id="@+id/dataShow"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingVertical="24.5dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:layout_gravity="end"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/bottomborder"/>
+    <CheckBox
+        android:id="@+id/flagBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</LinearLayout>

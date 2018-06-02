@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="tip">
+        拖动下面的滑块，可设置字体大小\n\n设置后将改变首页字体显示大小
+    </string>
+    <string name="version">V1.0.0</string>
+    <string name="releaseDate">2018.05.24</string>
+    <string name="copyright">Copyright ©zrz</string>
+    <string name="versionTip">当前版本</string>
+    <string name="releaseDateTip">发布时间</string>
+    <string name="searchTip">搜索笔记</string>
+    <string name="newButton">新建</string>
+    <string name="menuButton">菜单</string>
+    <string name="deleteButton">删除</string>
+    <string name="shareButton">分享</string>
+    <string name="cancelButton">取消</string>
+    <string name="saveButton">保存</string>
+    <string name="selectAllCheckBox">全选</string>
+    <string name="fontSizeTip">A</string>
+    <string name="standardFontSizeTip">标准</string>
+</resources>
